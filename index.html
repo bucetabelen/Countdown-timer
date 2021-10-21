@@ -14,19 +14,17 @@
 
   <title>Frontend Mentor | Launch countdown timer</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
 
   <header class="header">We're launching soon</header> 
   
+  <input class="input" id="input" type="date" name="date"  placeholder="dd-mm-yyyy" value="" min="1997-01-01" max="2030-12-31" style="background-color: azure;">
+  <button class="btn" id="btn" type="button" onclick="getInputValue();">done</button>
+    
 
-
-  <ul id="timer" class="list">
+  <ul id="timer" class="list" >
 
     
   </ul>
