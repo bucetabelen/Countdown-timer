@@ -13,25 +13,60 @@ body{
     color: white;
     position: fixed;
     top: 15%;
-    left: 42%;
+    /*left: 42%;*/
     letter-spacing: 7.5px;
     font-size: 17px;
     text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    background: none;
+    width: 100%;
+    border: none;
+    outline: none;
     
 }
 .input{
 
     position: absolute;
     top: 30%;
-    left: 50%;
+    left: 48.5%;
+ 
 }
 
+input[type="date"]{
+
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    padding: 15px;
+    transform: translate(-50%,-50%);
+    border: none;
+    outline: none;
+   
+
+}
+::-webkit-calendar-picker-indicator{
+    background-color: white ;
+    cursor: pointer;
+}
 .btn{
 
     position: absolute;
     top: 35%;
-    left: 52%;
+    left:47%;
+    background: none;
+    color: white;
+    border: 1px solid;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
 }
+.btn:hover{
+
+    background-color: violet;
+}
+
 .list{
 
     text-decoration: none;
@@ -73,8 +108,10 @@ ul li{
     flex-direction: row;
     margin-left: 26%;
     /*justify-content: space-between;*/
-    gap: 220px;
+    gap: 214px;
     margin-right: 26%;
+
+
 }
 .footer{
     
