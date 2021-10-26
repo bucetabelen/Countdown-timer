@@ -139,8 +139,10 @@ ul li{
     cursor: pointer;
 }
 
-.a:hover{
+.footer-socialmedia img:hover{
 
-    background-color: palevioletred;
+   /* background-color: palevioletred;*/
+   opacity: 0.5;
+
 
 }
